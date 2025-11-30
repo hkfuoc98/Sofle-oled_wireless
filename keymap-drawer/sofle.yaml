@@ -136,7 +136,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - '&sys_reset'
   - EP TOG
   - RGB HUD
   - RGB HUI
