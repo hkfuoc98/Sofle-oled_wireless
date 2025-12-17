@@ -27,36 +27,6 @@
         };
     };
 
-    macros {
-        select: select {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp S &kp E &kp L &kp E &kp C &kp T &kp SPACE &kp N1 &kp RET &kp F &kp R &kp O &kp M &kp RET &kp W &kp H &kp E &kp R &kp E &kp RET &kp G &kp R &kp O &kp U &kp P &kp SPACE &kp B &kp Y &kp RET &kp O &kp R &kp D &kp E &kp R &kp SPACE &kp B &kp Y &kp RET &kp SEMI>;
-            label = "SELECT";
-        };
-
-        loop: loop {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp D &kp E &kp C &kp L &kp A &kp R &kp E &kp RET &kp S &kp T &kp A &kp R &kp T &kp UNDER &kp D &kp A &kp T &kp E &kp SPACE &kp D &kp A &kp T &kp E &kp COLON &kp EQUAL &kp SPACE &kp SQT &kp SQT &kp SEMI &kp RET &kp B &kp E &kp G &kp I &kp N &kp RET &kp L &kp O &kp O &kp P &kp RET &kp C &kp O &kp M &kp M &kp I &kp T &kp SEMI &kp RET &kp S &kp T &kp A &kp R &kp T &kp UNDER &kp D &kp A &kp T &kp E &kp SPACE &kp COLON &kp EQUAL &kp SPACE &kp S &kp T &kp A &kp R &kp T &kp UNDER &kp D &kp A &kp T &kp E &kp PLUS &kp N1 &kp SEMI &kp RET &kp E &kp X &kp I &kp T &kp SPACE &kp W &kp H &kp E &kp N &kp SPACE &kp S &kp T &kp A &kp R &kp T &kp UNDER &kp D &kp A &kp T &kp E &kp SPACE &kp GT &kp SPACE &kp SQT &kp SQT &kp SEMI &kp RET &kp E &kp N &kp D &kp SPACE &kp L &kp O &kp O &kp P &kp SEMI &kp RET &kp E &kp N &kp D &kp SEMI>;
-            label = "LOOP";
-        };
-
-        connect: connect {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp C &kp O &kp N &kp N &kp E &kp C &kp T>;
-            label = "CONNECT";
-        };
-
-        pivot: pivot {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp P &kp I &kp V &kp O &kp T>;
-            label = "PIVOT";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -116,11 +86,11 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&kp GRAVE  &kp F1   &kp F2   &kp F3        &kp F4    &kp F5                    &kp F6  &kp F7    &kp F8     &kp F9   &kp F10               &kp DEL
-&kp F11    &kp F12  &select  &loop         &connect  &pivot                    &trans  &trans    &trans     &trans   &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC
-&trans     &trans   &trans   &trans        &trans    &trans                    &trans  &trans    &trans     &trans   &trans                &trans
-&trans     &trans   &trans   &kp CAPSLOCK  &trans    &trans  &trans    &trans  &trans  &trans    &kp PG_UP  &trans   &trans                &trans
-                    &trans   &trans        &trans    &trans  &trans    &trans  &trans  &kp HOME  &kp PG_DN  &kp END
+&kp GRAVE  &kp F1   &kp F2  &kp F3        &kp F4  &kp F5                    &kp F6  &kp F7    &kp F8     &kp F9   &kp F10               &kp DEL
+&kp F11    &kp F12  &trans  &trans        &trans  &trans                    &trans  &trans    &trans     &trans   &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC
+&trans     &trans   &trans  &trans        &trans  &trans                    &trans  &trans    &trans     &trans   &trans                &trans
+&trans     &trans   &trans  &kp CAPSLOCK  &trans  &trans  &trans    &trans  &trans  &trans    &kp PG_UP  &trans   &trans                &trans
+                    &trans  &trans        &trans  &trans  &trans    &trans  &trans  &kp HOME  &kp PG_DN  &kp END
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
