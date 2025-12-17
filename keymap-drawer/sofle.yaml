@@ -78,10 +78,10 @@ layers:
   - DEL
   - F11
   - F12
-  - '&select'
-  - '&loop'
-  - '&connect'
-  - '&pivot'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
