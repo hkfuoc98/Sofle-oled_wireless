@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: sofle}
 layers:
-  default: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACKSPACE, TAB, Q, W, E, R, T, Y, U, I, O, P, RSHIFT, LSHFT, A, S, D, F, G, H, J, K, L, ;, '''',
-    \, Z, X, C, V, B, MUTE, '', N, M, '=', '-', ',', ., LCTRL, LALT, LGUI, lower, ENTER, SPACE, raise, '[', ']', /]
+  default: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', ;, TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, LSHFT, A, S, D, F, G, H, J, K, L, ENTER, '''', \, Z,
+    X, C, V, B, MUTE, '', N, M, '=', '-', ',', ., LCTRL, LALT, LGUI, lower, SPACE, ENTER, raise, '[', ']', /]
   lower:
   - '`'
   - F1
@@ -14,7 +14,7 @@ layers:
   - F8
   - F9
   - F10
-  - DELETE
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F11
   - F12
@@ -24,10 +24,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - PRINTSCREEN
   - INS
-  - {t: ▽, type: trans}
+  - PRINTSCREEN
+  - DEL
+  - CAPSLOCK
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -42,7 +42,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - CAPSLOCK
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -75,7 +75,7 @@ layers:
   - F8
   - F9
   - F10
-  - DELETE
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F11
   - F12
@@ -85,9 +85,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - PRINTSCREEN
   - INS
+  - PRINTSCREEN
+  - DEL
+  - CAPS
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -103,7 +104,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - CAPSLOCK
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
