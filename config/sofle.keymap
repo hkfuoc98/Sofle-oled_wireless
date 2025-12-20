@@ -68,8 +68,6 @@
 &trans     &trans   &trans  &kp CAPSLOCK  &trans  &trans  &trans    &trans  &trans  &trans    &kp UP_ARROW  &trans           &trans           &trans
                     &trans  &trans        &trans  &trans  &trans    &trans  &trans  &kp LEFT  &kp DOWN      &kp RIGHT_ARROW
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
         raise_layer {
@@ -89,8 +87,6 @@
 &trans     &trans   &trans  &kp CAPSLOCK  &trans  &trans  &trans    &trans  &trans  &trans    &kp PG_UP  &trans   &trans                &trans
                     &trans  &trans        &trans  &trans  &trans    &trans  &trans  &kp HOME  &kp PG_DN  &kp END
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
     };
 };
