@@ -57,7 +57,7 @@ layers:
   - {t: SPACE, h: lower}
   - SPACE
   - ENTER
-  - {t: SPACE, h: raise}
+  - {t: ENTER, h: raise}
   - '['
   - ']'
   - /
