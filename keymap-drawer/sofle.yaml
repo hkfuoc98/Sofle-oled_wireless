@@ -37,7 +37,7 @@ layers:
   - L
   - ''''
   - RIGHT SHIFT
-  - \
+  - LCTRL
   - Z
   - X
   - C
@@ -51,7 +51,7 @@ layers:
   - '-'
   - ','
   - .
-  - LCTRL
+  - \
   - LALT
   - LGUI
   - {t: SPACE, h: lower}
@@ -97,8 +97,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - DEL
-  - {t: ▽, type: trans}
+  - RSHFT
+  - LCTRL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -113,12 +113,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LALT
+  - LGUI
+  - {t: SPACE, type: held}
+  - SPACE
+  - ENTER
+  - ENTER
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
@@ -158,8 +158,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - DEL
-  - {t: ▽, type: trans}
+  - RSHFT
+  - LCTRL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -174,12 +174,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
+  - LALT
+  - LGUI
+  - SPACE
+  - SPACE
+  - ENTER
+  - {t: ENTER, type: held}
   - HOME
   - PAGE DOWN
   - END
