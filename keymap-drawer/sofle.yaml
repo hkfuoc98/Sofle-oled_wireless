@@ -14,39 +14,39 @@ layers:
   - '0'
   - ;
   - TAB
-  - {t: Q, h: sticky}
-  - {t: W, h: sticky}
-  - {t: E, h: sticky}
-  - {t: R, h: sticky}
-  - {t: T, h: sticky}
-  - {t: Y, h: sticky}
-  - {t: U, h: sticky}
-  - {t: I, h: sticky}
-  - {t: O, h: sticky}
-  - {t: P, h: sticky}
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
   - BSPC
   - LSHFT
-  - {t: A, h: sticky}
-  - {t: S, h: sticky}
-  - {t: D, h: sticky}
+  - A
+  - S
+  - D
   - {t: F, h: LSHFT}
-  - {t: G, h: sticky}
-  - {t: H, h: sticky}
+  - G
+  - H
   - {t: J, h: RIGHT SHIFT}
-  - {t: K, h: sticky}
-  - {t: L, h: sticky}
+  - K
+  - L
   - ''''
   - RIGHT SHIFT
   - LCTRL
-  - {t: Z, h: sticky}
-  - {t: X, h: sticky}
-  - {t: C, h: sticky}
-  - {t: V, h: sticky}
-  - {t: B, h: sticky}
+  - Z
+  - X
+  - C
+  - V
+  - B
   - MUTE
   - ''
-  - {t: N, h: sticky}
-  - {t: M, h: sticky}
+  - N
+  - M
   - '='
   - '-'
   - ','
