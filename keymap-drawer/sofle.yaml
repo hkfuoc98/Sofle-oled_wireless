@@ -14,46 +14,46 @@ layers:
   - '0'
   - ;
   - TAB
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
+  - {t: Q, h: sticky}
+  - {t: W, h: sticky}
+  - {t: E, h: sticky}
+  - {t: R, h: sticky}
+  - {t: T, h: sticky}
+  - {t: Y, h: sticky}
+  - {t: U, h: sticky}
+  - {t: I, h: sticky}
+  - {t: O, h: sticky}
+  - {t: P, h: sticky}
   - BSPC
   - LSHFT
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
+  - {t: A, h: sticky}
+  - {t: S, h: sticky}
+  - {t: D, h: sticky}
+  - {t: F, h: sticky}
+  - {t: G, h: sticky}
+  - {t: H, h: sticky}
+  - {t: J, h: sticky}
+  - {t: K, h: sticky}
+  - {t: L, h: sticky}
   - ''''
   - RIGHT SHIFT
   - LCTRL
-  - Z
-  - X
-  - C
-  - V
-  - B
+  - {t: Z, h: sticky}
+  - {t: X, h: sticky}
+  - {t: C, h: sticky}
+  - {t: V, h: sticky}
+  - {t: B, h: sticky}
   - MUTE
   - ''
-  - N
-  - M
+  - {t: N, h: sticky}
+  - {t: M, h: sticky}
   - '='
   - '-'
   - ','
   - .
   - \
-  - LALT
   - LGUI
+  - LALT
   - {t: SPACE, h: lower}
   - SPACE
   - ENTER
@@ -113,8 +113,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LALT
   - LGUI
+  - LALT
   - {t: SPACE, type: held}
   - SPACE
   - ENTER
@@ -174,8 +174,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LALT
   - LGUI
+  - LALT
   - SPACE
   - SPACE
   - ENTER
