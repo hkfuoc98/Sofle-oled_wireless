@@ -29,10 +29,10 @@ layers:
   - {t: A, h: sticky}
   - {t: S, h: sticky}
   - {t: D, h: sticky}
-  - {t: F, h: sticky}
+  - {t: F, h: LSHFT}
   - {t: G, h: sticky}
   - {t: H, h: sticky}
-  - {t: J, h: sticky}
+  - {t: J, h: RIGHT SHIFT}
   - {t: K, h: sticky}
   - {t: L, h: sticky}
   - ''''
@@ -143,7 +143,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - UP ARROW
   - INS
   - PRINTSCREEN
   - DEL
@@ -154,9 +154,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
   - {t: ▽, type: trans}
   - RSHFT
   - LCTRL
