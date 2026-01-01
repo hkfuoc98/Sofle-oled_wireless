@@ -29,10 +29,10 @@ layers:
   - A
   - S
   - D
-  - {t: F, h: LSHFT}
+  - F
   - G
   - H
-  - {t: J, h: RIGHT SHIFT}
+  - J
   - K
   - L
   - ''''
@@ -79,23 +79,23 @@ layers:
   - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BRIGHTNESS INC
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - UP ARROW
   - INS
   - PRINTSCREEN
   - DEL
-  - CAPSLOCK
+  - CAPS
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BRIGHTNESS DEC
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
   - {t: ▽, type: trans}
   - RSHFT
   - LCTRL
@@ -108,7 +108,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - UP ARROW
+  - PG UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -119,9 +119,9 @@ layers:
   - SPACE
   - ENTER
   - ENTER
-  - LEFT ARROW
-  - DOWN ARROW
-  - RIGHT ARROW
+  - HOME
+  - PAGE DOWN
+  - END
   raise:
   - '`'
   - F1
