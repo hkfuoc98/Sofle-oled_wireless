@@ -32,7 +32,7 @@ layers:
   - {t: F, h: LSHFT}
   - G
   - H
-  - {t: J, h: Ctl+RIGHT SHIFT}
+  - {t: J, h: RIGHT SHIFT}
   - K
   - L
   - ;
