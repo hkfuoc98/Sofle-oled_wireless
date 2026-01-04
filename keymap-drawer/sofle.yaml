@@ -12,7 +12,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - PSCRN
+  - CAPS
   - TAB
   - Q
   - W
@@ -25,18 +25,18 @@ layers:
   - O
   - P
   - BSPC
-  - LSHFT
+  - LEFT GUI
   - A
   - S
   - D
-  - F
+  - {t: LSHFT, h: F}
   - G
   - H
-  - J
+  - {t: RIGHT SHIFT, h: J}
   - K
   - L
   - ;
-  - {t: '''', h: RIGHT SHIFT}
+  - ''''
   - LCTRL
   - Z
   - X
@@ -52,7 +52,7 @@ layers:
   - /
   - '='
   - END
-  - LGUI
+  - \
   - LALT
   - {t: SPACE, h: lower}
   - SPACE
@@ -60,7 +60,7 @@ layers:
   - {t: ENTER, h: lower}
   - '['
   - ']'
-  - \
+  - '-'
   lower:
   - '`'
   - F1
@@ -73,7 +73,7 @@ layers:
   - F8
   - F9
   - F10
-  - INS
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F11
   - F12
@@ -84,7 +84,7 @@ layers:
   - {t: ▽, type: trans}
   - UP ARROW
   - INS
-  - '-'
+  - PSCRN
   - DEL
   - CAPS
   - {t: ▽, type: trans}
@@ -97,11 +97,11 @@ layers:
   - DOWN ARROW
   - RIGHT ARROW
   - {t: ▽, type: trans}
-  - RSHFT
+  - {t: ▽, type: trans}
   - LCTRL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - CAPS
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
