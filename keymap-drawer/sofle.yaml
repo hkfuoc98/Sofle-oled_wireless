@@ -29,10 +29,10 @@ layers:
   - A
   - S
   - D
-  - {t: LSHFT, h: F}
+  - {t: F, h: LSHFT}
   - G
   - H
-  - {t: RIGHT SHIFT, h: J}
+  - {t: J, h: Ctl+RIGHT SHIFT}
   - K
   - L
   - ;
