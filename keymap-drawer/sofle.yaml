@@ -35,8 +35,8 @@ layers:
   - {t: J, h: RIGHT SHIFT}
   - K
   - L
-  - ;
-  - {t: '''', h: RIGHT SHIFT}
+  - {t: ;, h: RIGHT SHIFT}
+  - ''''
   - LCTRL
   - Z
   - X
@@ -58,9 +58,9 @@ layers:
   - SPACE
   - ENTER
   - {t: ENTER, h: lower}
+  - '-'
   - '['
   - ']'
-  - '-'
   lower:
   - '`'
   - F1
