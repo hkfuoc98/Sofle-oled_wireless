@@ -36,7 +36,7 @@ layers:
   - K
   - L
   - ;
-  - ''''
+  - {t: '''', h: RIGHT SHIFT}
   - LCTRL
   - Z
   - X
@@ -81,7 +81,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '-'
   - UP ARROW
   - INS
   - PSCRN
