@@ -16,7 +16,14 @@
 / {
     // Activate ADJUST layer by pressing raise and lower
 
-    conditional_layers { compatible = "zmk,conditional-layers"; };
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        addlayer {
+            if-layers = <1 2>;
+            then-layer = <3>;
+        };
+    };
 
     behaviors {
         custom_layertap: custom_layertap {
@@ -102,7 +109,7 @@
 &kp TAB  &kp Q          &kp W         &kp E                 &kp R                   &kp T                                              &kp Y                     &kp U                        &kp I             &kp O              &kp P                                 &kp BSPC
 &trans   &kp A          &kp S         &kp D                 &homerow_right LSHFT F  &kp G                                              &kp H                     &homerow_left RIGHT_SHIFT J  &kp K             &kp L              &custom_modtap RIGHT_SHIFT SEMICOLON  &trans
 &trans   &CTRL RCTRL Z  &kp X         &kp C                 &kp V                   &kp B                     &kp C_MUTE    &none      &kp N                     &kp M                        &kp COMMA         &kp PERIOD         &kp SLASH                             &trans
-                        &kp LEFT_WIN  &kp NON_US_BACKSLASH  &kp LALT                &custom_layertap 1 SPACE  &kp SPACE     &kp ENTER  &custom_layertap 1 ENTER  &kp MINUS                    &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+                        &kp LEFT_WIN  &kp NON_US_BACKSLASH  &kp LALT                &custom_layertap 1 SPACE  &kp SPACE     &kp ENTER  &custom_layertap 2 ENTER  &kp MINUS                    &kp LEFT_BRACKET  &kp RIGHT_BRACKET
             >;
 
             sensor-bindings =
@@ -113,16 +120,41 @@
         lower {
             label = "lower";
             bindings = <
-&kp GRAVE       &kp F1   &kp F2   &kp F3    &kp F4    &kp F5                                    &kp F6         &kp F7          &kp F8          &kp F9           &kp F10           &trans
-&bt BT_CLR_ALL  &kp F11  &kp F12  &trans    &trans    &kp RS(NUMBER_8)                          &kp SQT        &kp RS(MINUS)   &kp UP_ARROW    &kp EQUAL        &kp RS(NUMBER_9)  &kp DEL
-&bt BT_SEL 0    &trans   &trans   &trans    &trans    &trans                                    &kp RS(SQT)    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RS(NUMBER_0)  &kp PRINTSCREEN
-&bt BT_SEL 1    &trans   &trans   &trans    &trans    &trans            &trans       &trans     &kp RS(EQUAL)  &kp MINUS       &kp PG_UP       &trans           &trans            &kp INS
-                         &trans   &kp LGUI  &kp LALT  &kp SPACE         &kp SPACE    &kp ENTER  &kp ENTER      &kp HOME        &kp PAGE_DOWN   &kp END
+&kp GRAVE  &kp F1   &kp F2   &kp F3    &kp F4    &kp F5                                    &kp F6         &kp F7          &kp F8          &kp F9           &kp F10           &trans
+&trans     &kp F11  &kp F12  &trans    &trans    &kp RS(NUMBER_8)                          &kp SQT        &kp RS(MINUS)   &kp UP_ARROW    &kp EQUAL        &kp RS(NUMBER_9)  &kp DEL
+&trans     &trans   &trans   &trans    &trans    &trans                                    &kp RS(SQT)    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RS(NUMBER_0)  &kp PRINTSCREEN
+&trans     &trans   &trans   &trans    &trans    &trans            &trans       &trans     &kp RS(EQUAL)  &kp MINUS       &kp PG_UP       &trans           &trans            &kp INS
+                    &trans   &kp LGUI  &kp LALT  &kp SPACE         &kp SPACE    &kp ENTER  &kp ENTER      &kp HOME        &kp PAGE_DOWN   &kp END
             >;
 
             sensor-bindings =
                 <&inc_dec_kp C_VOL_UP C_VOL_DN>,
                 <&inc_dec_kp PG_UP PG_DN>;
+        };
+
+        raise {
+            label = "raise";
+            bindings = <
+&kp GRAVE  &kp F1   &kp F2   &kp F3    &kp F4    &kp F5                                    &kp F6         &kp F7          &kp F8          &kp F9           &kp F10           &trans
+&trans     &kp F11  &kp F12  &trans    &trans    &kp RS(NUMBER_8)                          &kp SQT        &kp RS(MINUS)   &kp UP_ARROW    &kp EQUAL        &kp RS(NUMBER_9)  &kp DEL
+&trans     &trans   &trans   &trans    &trans    &trans                                    &kp RS(SQT)    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RS(NUMBER_0)  &kp PRINTSCREEN
+&trans     &trans   &trans   &trans    &trans    &trans            &trans       &trans     &kp RS(EQUAL)  &kp MINUS       &kp PG_UP       &trans           &trans            &kp INS
+                    &trans   &kp LGUI  &kp LALT  &kp SPACE         &kp SPACE    &kp ENTER  &kp ENTER      &kp HOME        &kp PAGE_DOWN   &kp END
+            >;
+
+            sensor-bindings =
+                <&inc_dec_kp C_VOL_UP C_VOL_DN>,
+                <&inc_dec_kp PG_UP PG_DN>;
+        };
+
+        layer_3 {
+            bindings = <
+&bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans        &trans        &trans        &trans        &trans                          &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans        &trans        &trans        &trans        &trans                          &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans        &trans        &trans        &trans        &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                              &trans        &trans        &trans        &trans        &trans    &trans  &trans  &trans  &trans  &trans
+            >;
         };
     };
 };
