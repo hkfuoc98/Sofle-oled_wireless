@@ -83,7 +83,7 @@ layers:
   - ''''
   - Sft+-
   - UP ARROW
-  - Sft+=
+  - '='
   - Sft+9
   - DEL
   - {t: BT, h: '0'}
