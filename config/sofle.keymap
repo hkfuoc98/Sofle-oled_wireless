@@ -120,7 +120,7 @@
         lower {
             label = "lower";
             bindings = <
-&kp GRAVE  &kp F1   &kp F2   &kp F3    &kp F4    &kp F5                                    &kp F6         &kp F7          &kp F8          &kp F9           &kp F10           &trans
+&kp GRAVE  &kp F1   &kp F2   &kp F3    &kp F4    &kp F5                                    &kp F6         &kp F7          &kp F8          &kp F9           &kp F10           &kp KP_NUMLOCK
 &trans     &kp F11  &kp F12  &trans    &trans    &kp RS(NUMBER_8)                          &kp SQT        &kp RS(MINUS)   &kp UP_ARROW    &kp EQUAL        &kp RS(NUMBER_9)  &kp DEL
 &trans     &trans   &trans   &trans    &trans    &trans                                    &kp RS(SQT)    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RS(NUMBER_0)  &kp PRINTSCREEN
 &trans     &trans   &trans   &trans    &trans    &trans            &trans       &trans     &kp RS(EQUAL)  &kp MINUS       &kp PG_UP       &trans           &trans            &kp INS
@@ -135,7 +135,7 @@
         raise {
             label = "raise";
             bindings = <
-&kp GRAVE  &kp F1   &kp F2   &kp F3    &kp F4    &kp F5                                    &kp F6         &kp F7          &kp F8          &kp F9           &kp F10           &trans
+&kp GRAVE  &kp F1   &kp F2   &kp F3    &kp F4    &kp F5                                    &kp F6         &kp F7          &kp F8          &kp F9           &kp F10           &kp KP_NUM
 &trans     &kp F11  &kp F12  &trans    &trans    &kp RS(NUMBER_8)                          &kp SQT        &kp RS(MINUS)   &kp UP_ARROW    &kp EQUAL        &kp RS(NUMBER_9)  &kp DEL
 &trans     &trans   &trans   &trans    &trans    &trans                                    &kp RS(SQT)    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RS(NUMBER_0)  &kp PRINTSCREEN
 &trans     &trans   &trans   &trans    &trans    &trans            &trans       &trans     &kp RS(EQUAL)  &kp MINUS       &kp PG_UP       &trans           &trans            &kp INS
