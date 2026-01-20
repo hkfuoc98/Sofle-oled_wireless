@@ -38,7 +38,7 @@ layers:
   - {t: ;, h: RIGHT SHIFT}
   - {t: ▽, type: trans}
   - media
-  - {t: Z, h: RCTRL}
+  - {t: Z, h: LCTRL}
   - X
   - C
   - V
